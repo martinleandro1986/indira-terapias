@@ -1,3 +1,16 @@
+h1,
+h2,
+h3,
+h4 {
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+
 :root {
   /* Colores principales */
   --color-cream: #fbf6ef;
