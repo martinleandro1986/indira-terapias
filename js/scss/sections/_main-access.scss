@@ -1,0 +1,35 @@
+.main-access {
+  position: relative;
+  overflow: hidden;
+  padding: 115px 0 125px;
+  background:
+    radial-gradient(circle at 2% 95%, rgba(157,169,147,.10), transparent 24%),
+    radial-gradient(circle at 94% 7%, rgba(228,101,71,.06), transparent 21%),
+    #fffdf9;
+}
+.main-access::before {
+  position: absolute;
+  top: 70px;
+  left: max(24px, calc((100vw - 1320px)/2));
+  width: 68px;
+  height: 1px;
+  background: rgba(228,101,71,.55);
+  content: "";
+}
+.main-access-intro { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(280px,.65fr); align-items: end; gap: 80px; margin-bottom: 54px; }
+.main-access-heading { max-width: 760px; }
+.main-access-heading .section-kicker { margin-bottom: 16px; }
+.main-access-heading h2 { margin: 0; color: var(--color-earth); font-family: var(--font-heading); font-size: clamp(46px,5vw,68px); font-weight: 600; letter-spacing: -.035em; line-height: 1; }
+.main-access-description { max-width: 430px; margin: 0 0 4px; color: var(--color-earth-soft); font-size: 15px; line-height: 1.8; }
+.access-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; }
+@media (max-width: 991px) {
+  .main-access { padding: 90px 0 100px; }
+  .main-access-intro { grid-template-columns: 1fr; gap: 22px; margin-bottom: 42px; }
+  .main-access-description { max-width: 650px; }
+  .access-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 575px) {
+  .main-access { padding: 76px 0 82px; }
+  .main-access::before { top: 45px; }
+  .main-access-heading h2 { font-size: 43px; }
+}
