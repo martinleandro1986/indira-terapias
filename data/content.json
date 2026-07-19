@@ -1,0 +1,11 @@
+{
+  "therapies": [
+    {"activo":"SI","nombre":"Reiki","categoria":"Terapias energéticas","resumen":"Armonización, descanso y reconexión con tu energía vital.","modalidad":"Presencial o virtual","duracion":"1 h 30 min","precio":"","boton_texto":"Consultar","boton_url":"contacto.html","orden":1},
+    {"activo":"SI","nombre":"Tarot Terapéutico Rider","categoria":"Claridad y orientación","resumen":"Una herramienta de autoconocimiento para comprender procesos y tomar decisiones con mayor conciencia.","modalidad":"Presencial o virtual","duracion":"1 h","precio":"","boton_texto":"Consultar","boton_url":"contacto.html","orden":2},
+    {"activo":"SI","nombre":"Alma Raíz","categoria":"Terapias energéticas","resumen":"Limpieza y recalibración energética canalizada para acompañar bloqueos, cargas o sensación de estancamiento.","modalidad":"Presencial o virtual","duracion":"1 h 30 min","precio":"","boton_texto":"Consultar","boton_url":"contacto.html","orden":3},
+    {"activo":"SI","nombre":"Tameana","categoria":"Terapias energéticas","resumen":"Armonización con cristales, símbolos y frecuencias sutiles para favorecer equilibrio y expansión de conciencia.","modalidad":"Presencial, virtual o grupal","duracion":"Ciclos de 3 sesiones","precio":"","boton_texto":"Consultar","boton_url":"contacto.html","orden":4},
+    {"activo":"SI","nombre":"Sanación energética para mascotas","categoria":"Acompañamiento energético","resumen":"Trabajo vibracional a distancia adaptado a las necesidades energéticas de cada animal.","modalidad":"Virtual","duracion":"","precio":"","boton_texto":"Consultar","boton_url":"contacto.html","orden":5}
+  ],
+  "trainings": [],
+  "events": []
+}
